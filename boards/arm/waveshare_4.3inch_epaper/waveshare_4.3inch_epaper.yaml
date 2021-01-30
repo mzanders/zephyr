@@ -1,0 +1,15 @@
+identifier: waveshare_4.3inch_epaper
+name: Waveshare 4.3inch ePaper
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 64
+flash: 512
+supported:
+  - gpio
+  - i2c
+  - watchdog
+  - can
